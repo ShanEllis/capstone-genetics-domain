@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Week 4: RNA Sequencing: Data Processing &#8212; Genetic Basis of Mental Health</title>
+    <title>Week 4: RNA Seq: Data Processing &#8212; Genetic Basis of Mental Health</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
@@ -37,8 +37,8 @@
     <link rel="shortcut icon" href="../_static/logo.svg"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Week 5: RNA-Sequencing: Normalization &amp; DEA" href="05.html" />
-    <link rel="prev" title="Week 3: RNA-Sequencing: Methods" href="03.html" />
+    <link rel="next" title="Week 5: RNA-Seq: Normalization &amp; DEA" href="05.html" />
+    <link rel="prev" title="Week 3: RNA-Seq: Methods" href="03.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -91,22 +91,27 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="03.html">
-   Week 3: RNA-Sequencing: Methods
+   Week 3: RNA-Seq: Methods
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Week 4: RNA Sequencing: Data Processing
+   Week 4: RNA Seq: Data Processing
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="05.html">
-   Week 5: RNA-Sequencing: Normalization &amp; DEA
+   Week 5: RNA-Seq: Normalization &amp; DEA
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06.html">
+   Week 6: No Class
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="07.html">
-   Week 7: Pathway Enrichment Analysis &amp; Beyond
+   Week 7: Enrichment Analysis &amp; Beyond
   </a>
  </li>
  <li class="toctree-l1">
@@ -125,7 +130,7 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../references.html">
+  <a class="reference internal" href="../zreferences.html">
    References
   </a>
  </li>
@@ -223,8 +228,8 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#reading">
-   Reading
+  <a class="reference internal nav-link" href="#readings">
+   Readings
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -242,8 +247,8 @@
         
               <div>
                 
-  <div class="section" id="week-4-rna-sequencing-data-processing">
-<h1>Week 4: RNA Sequencing: Data Processing<a class="headerlink" href="#week-4-rna-sequencing-data-processing" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="week-4-rna-seq-data-processing">
+<h1>Week 4: RNA Seq: Data Processing<a class="headerlink" href="#week-4-rna-seq-data-processing" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="topics">
 <h2>Topics<a class="headerlink" href="#topics" title="Permalink to this headline">¶</a></h2>
 <p>This week’s assignments will guide you through the following topics:</p>
@@ -256,11 +261,17 @@
 </li>
 </ul>
 </div>
-<div class="section" id="reading">
-<h2>Reading<a class="headerlink" href="#reading" title="Permalink to this headline">¶</a></h2>
-<p>Please read the following:
-*
-*</p>
+<div class="section" id="readings">
+<h2>Readings<a class="headerlink" href="#readings" title="Permalink to this headline">¶</a></h2>
+<p>Please read the following:</p>
+<ul class="simple">
+<li><p>cutadapt: Martin, Marcel <em>Bioinformatics in Action</em> (2011) <a class="bibtex reference internal" href="../zreferences.html#martin-cutadapt-2011" id="id1">[8]</a>: [<a class="reference external" href="http://journal.embnet.org/index.php/embnetjournal/article/view/200/479">URL</a>]; [<a class="reference external" href="https://github.com/ShanEllis/capstone-genetics-domain/raw/master/papers/week4/cutadapt.pdf">PDF</a>]</p></li>
+<li><p>FastQC: Andrews, S. <em>Babraham Bioinformatics</em> [<a class="reference external" href="https://www.bioinformatics.babraham.ac.uk/projects/fastqc/">URL</a>]</p>
+<ul>
+<li><p>just skim the documentation to understand what <em>FastQC</em> does</p></li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="section" id="weekly-questions">
 <h2>Weekly Questions<a class="headerlink" href="#weekly-questions" title="Permalink to this headline">¶</a></h2>
@@ -296,8 +307,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="03.html" title="previous page">Week 3: RNA-Sequencing: Methods</a>
-    <a class='right-next' id="next-link" href="05.html" title="next page">Week 5: RNA-Sequencing: Normalization &amp; DEA</a>
+    <a class='left-prev' id="prev-link" href="03.html" title="previous page">Week 3: RNA-Seq: Methods</a>
+    <a class='right-next' id="next-link" href="05.html" title="next page">Week 5: RNA-Seq: Normalization &amp; DEA</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

@@ -18,7 +18,9 @@ Specifically, you all will be reproducing (or modifying/surpassing) the results 
 
 This implies *at a minimum* reproducing Figure 1 in this paper {cite}`ramaker_post-mortem_2017`.
 
-The latter-half of DSC180A will introduce you to methods, techniques, and concepts that will help you move beyond, brainstorm, and develop a project that moves beyond this first replication.
+We will be working through parts of this paper most weeks and discussing each in detail.
+
+The latter-half of DSC180A will introduce you to methods, techniques, and concepts that will help you brainstorm and develop a project that to move beyond this first replication.
 
 ## Section Participation
 

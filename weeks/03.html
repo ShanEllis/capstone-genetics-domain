@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Week 3: RNA-Sequencing: Methods &#8212; Genetic Basis of Mental Health</title>
+    <title>Week 3: RNA-Seq: Methods &#8212; Genetic Basis of Mental Health</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
@@ -37,7 +37,7 @@
     <link rel="shortcut icon" href="../_static/logo.svg"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Week 4: RNA Sequencing: Data Processing" href="04.html" />
+    <link rel="next" title="Week 4: RNA Seq: Data Processing" href="04.html" />
     <link rel="prev" title="Week 2: Introduction to Mental Health" href="02.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -91,22 +91,27 @@
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Week 3: RNA-Sequencing: Methods
+   Week 3: RNA-Seq: Methods
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="04.html">
-   Week 4: RNA Sequencing: Data Processing
+   Week 4: RNA Seq: Data Processing
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="05.html">
-   Week 5: RNA-Sequencing: Normalization &amp; DEA
+   Week 5: RNA-Seq: Normalization &amp; DEA
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06.html">
+   Week 6: No Class
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="07.html">
-   Week 7: Pathway Enrichment Analysis &amp; Beyond
+   Week 7: Enrichment Analysis &amp; Beyond
   </a>
  </li>
  <li class="toctree-l1">
@@ -125,7 +130,7 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../references.html">
+  <a class="reference internal" href="../zreferences.html">
    References
   </a>
  </li>
@@ -223,8 +228,8 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#reading">
-   Reading
+  <a class="reference internal nav-link" href="#readings">
+   Readings
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -247,8 +252,8 @@
         
               <div>
                 
-  <div class="section" id="week-3-rna-sequencing-methods">
-<h1>Week 3: RNA-Sequencing: Methods<a class="headerlink" href="#week-3-rna-sequencing-methods" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="week-3-rna-seq-methods">
+<h1>Week 3: RNA-Seq: Methods<a class="headerlink" href="#week-3-rna-seq-methods" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="topics">
 <h2>Topics<a class="headerlink" href="#topics" title="Permalink to this headline">¶</a></h2>
 <p>This week’s assignments will guide you through the following topics:</p>
@@ -257,11 +262,16 @@
 <li><p>RNA-Sequencing</p></li>
 </ul>
 </div>
-<div class="section" id="reading">
-<h2>Reading<a class="headerlink" href="#reading" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="readings">
+<h2>Readings<a class="headerlink" href="#readings" title="Permalink to this headline">¶</a></h2>
 <p>Please read the following:</p>
 <ul class="simple">
-<li><p>Wang et al. <em>Nature Reviews Genetics</em> (2009) <span class="bibtex" id="id1">[noauthor_rna-seq_nodate]</span>; [<a class="reference external" href="https://www.nature.com/articles/nrg2484">URL</a>]; [<a class="reference external" href="https://github.com/ShanEllis/capstone-genetics-domain/raw/master/papers/week3/RNA-Seq.pdf.pdf">PDF</a>]</p></li>
+<li><p><strong>Replication Paper</strong>: Ramaker et al. <em>Genome Medicine</em> (2017) <a class="bibtex reference internal" href="../zreferences.html#ramaker-post-mortem-2017" id="id1">[1]</a> [<a class="reference external" href="https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-017-0458-5">URL</a>]; [<a class="reference external" href="https://github.com/ShanEllis/capstone-genetics-domain/raw/master/papers/main-paper.pdf">PDF</a>]</p>
+<ul>
+<li><p>Methods: beginning - stop at sequencing data analysis</p></li>
+</ul>
+</li>
+<li><p>RNA-Seq: Wang et al. <em>Nature Reviews Genetics</em> (2009) <a class="bibtex reference internal" href="../zreferences.html#wang-rna-seq-2009" id="id2">[7]</a>; [<a class="reference external" href="https://www.nature.com/articles/nrg2484">URL</a>]; [<a class="reference external" href="https://github.com/ShanEllis/capstone-genetics-domain/raw/master/papers/week3/RNA-Seq.pdf">PDF</a>]</p></li>
 </ul>
 </div>
 <div class="section" id="assignments">
@@ -305,7 +315,7 @@
     <div class='prev-next-bottom'>
         
     <a class='left-prev' id="prev-link" href="02.html" title="previous page">Week 2: Introduction to Mental Health</a>
-    <a class='right-next' id="next-link" href="04.html" title="next page">Week 4: RNA Sequencing: Data Processing</a>
+    <a class='right-next' id="next-link" href="04.html" title="next page">Week 4: RNA Seq: Data Processing</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
